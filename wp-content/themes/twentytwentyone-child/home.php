@@ -268,24 +268,18 @@ Template Name: Home
                     <section class="review">
                         <div class="container">
                             <div class="row">
+							<?php
+                     if( have_rows('review-left-repeater') ):
+                   while( have_rows('review-left-repeater') ) : the_row(); ?>
                                 <div class="col-sm-4 col-md-4 col-lg-4">
                                     <div class="review_left">
-                                        <h2>100+</h2>
-                                        <p>Clients</p>
+                                        <h2><?php the_sub_field('review-left-num'); ?></h2>
+                                        <p><?php the_sub_field('review-left-cntnt'); ?></p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4 col-md-4 col-lg-4">
-                                    <div class="review_left">
-                                        <h2>678</h2>
-                                        <p>No. of AU</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 col-md-4 col-lg-4">
-                                    <div class="review_left">
-                                        <h2>678</h2>
-                                        <p>Assets Under Management</p>
-                                    </div>
-                                </div>
+							<?php 	 endwhile;
+                                   else :
+                                 endif; ?>
                             </div>
                         </div>
                     </section>
@@ -294,56 +288,19 @@ Template Name: Home
                             <div class="row">
                                 <div class="col-sm-12 col-md-12">
                                     <div class="heading">
-                                        <h2>our partners</h2>
+                                        <h2><?php the_field('our-partner'); ?></h2>
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-12">
                                     <div class="owl-carousel investment_slide">
+								<?php 	if( have_rows('partner-repeater') ):
+                                    while( have_rows('partner-repeater') ) : the_row(); ?>
                                         <div class="investment_child">
-                                            <img src="img/investment1.png" alt="icon" class="img-fluid" />
+                                            <img src="<?php the_sub_field('partner-img'); ?>" alt="icon" class="img-fluid" />
                                         </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment2.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment3.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment4.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment5.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment1.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment2.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment3.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment4.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment5.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment1.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment2.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment3.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment4.png" alt="icon" class="img-fluid" />
-                                        </div>
-                                        <div class="investment_child">
-                                            <img src="img/investment5.png" alt="icon" class="img-fluid" />
-                                        </div>
+                             <?php           endwhile;
+                                          else :
+                                       endif; ?>
                                     </div>
                                 </div>
                             </div>
