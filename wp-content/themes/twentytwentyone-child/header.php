@@ -35,39 +35,9 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
- <!--topline-->
-         <section class="topbar">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                     <div class="topbar_left">
-				<?php 
-                 $link = get_field('link', 'option');
-               if( $link ): 
-                  $link_url = $link['url'];
-                  $link_title = $link['title'];
-                   ?>
-                  <a href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
-                    <?php endif; ?>
-                      
-                     </div>
-                  </div>
-                  <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-                     <div class="topbar_icon">
-                        <ul>
-                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></i></a></li>
-                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!--navigation-->
-
-
+   <div class="whatapss_fixed">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
     <header id="home" class="navigation">
       <div class="container">
     <nav class="navbar">
