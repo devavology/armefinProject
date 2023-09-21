@@ -230,7 +230,23 @@
                         },
                     });
                 </script>
+<script>
+const menuItems = document.querySelectorAll('.links .linksss');
 
+// Loop through each <li> element and add <i> tag after <a> tag
+menuItems.forEach(item => {
+  const aTag = item.querySelector('a');
+  const iTag = document.createElement('i');
+  iTag.className = 'fa-solid fa-chevron-down';
+  aTag.insertAdjacentElement('afterend', iTag);
+});
+</script>
 
+ <script>
+    $(document).ready(function() {
+      // Find the <ul> element with the specified class and add a sub-class
+      $("ul.sub-menu").addClass("more-sub-menu");
+    });
+  </script>
 </body>
 </html>
