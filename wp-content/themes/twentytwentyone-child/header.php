@@ -28,7 +28,6 @@
       <link rel="icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.png">
       <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css">
       <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/responsive.css">
-
 	  
 </head>
 
@@ -77,3 +76,5 @@
     </nav>
   </div>
   </header>
+
+
