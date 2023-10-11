@@ -48,6 +48,9 @@ Template Name: Indian Stock
 		   <section class="open-lists">
            <div class="container">
              <div class="row">
+			 <div class="col-sm-12">
+                   <h3>Open an Account</h3>
+              </div>
                <div class="col-sm-12 col-md-12 col-lg-6">
                  <div class="open-lists-left"> 
                    <?php the_field('contact-form'); ?>
