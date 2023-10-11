@@ -8,6 +8,13 @@ Template Name: Pre Pro Indian
  <main>
          <!--about_bnr-->
          <section class="about_bnr pre_indian_bnr">
+		  <div id="parallax" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            <div data-depth="0.4" class="layer" style="position: relative; display: block; left: 0px; top: 0px; transform: translate3d(65.7328px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+              <div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1903" height="952"></canvas></div>
+            </div>
+            <div data-depth="0.3" class="layer" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(49.2996px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+            </div>
+          </div>
             <div class="container">
                <div class="row">
                   <div class="col-sm-12 col-md-12 col-lg-12">
@@ -157,6 +164,43 @@ Template Name: Pre Pro Indian
            </div>
          </div>
        </section>
+	   
+	   <section class="faq faq_space pre-faq">
+            <div class="container">
+               <div class="row justify-content-center">
+                <div class="col-md-12">
+                <div class="heading">
+                  <h2><?php the_field('faq-heading'); ?></h2>
+                </div>
+              </div>
+                  <div class="col-sm-12 col-md-12 col-lg-10"> 
+                     <div class="faq_center">
+					 <?php if(have_rows('faq-repeater')): ?>
+                        <div class="accordion" id="accordionExample">
+						<?php $i=0; while(have_rows('faq-repeater')): the_row();
+                              $title = get_sub_field('faq-title');			
+                              $content = get_sub_field('faq-content');		
+                               $i++; $count = $i;		  ?>
+                             <div class="accordion-item">
+                               <h2 class="accordion-header" id="heading<?php echo $count; ?>">
+                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?php echo $count; ?>" aria-expanded="false" aria-controls="collapse<?php echo $count; ?>">
+                                   <?php echo $title; ?>
+                                 </button>
+                               </h2>
+                               <div id="collapse<?php echo $count; ?>" class="accordion-collapse collapse" aria-labelledby="heading<?php echo $count; ?>" data-bs-parent="#accordionExample" style="">
+                                 <div class="accordion-body">
+                                   <?php echo $content; ?>
+                                 </div>
+                               </div>
+                             </div>
+                           <?php endwhile; ?>
+                           </div>
+						   <?php endif; ?>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
 
 
 
