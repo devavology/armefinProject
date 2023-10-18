@@ -63,31 +63,7 @@ Template Name: Startup Funding
                </div>
             </div>
          </section>
-         <!--expert-->
-         <section class="expert">
-            <div class="container">
-               <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-12 outer">
-                     <div class="heading">
-                        <h2><?php the_field('expert-heading'); ?></h2>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-			   <?php if(have_rows('expert-repeater')):
-                   while(have_rows('expert-repeater')): the_row(); 			   ?>
-                  <div class="col-sm-12 col-md-6 col-lg-4 outer">
-                     <div class="box">
-                        <span><i class="fas fa-user-alt"></i></span>
-                        <?php the_sub_field('portfolio-cntnt'); ?>
-                     </div>
-                  </div>
-              <?php endwhile;
-			  else:
-			  endif; ?>
-               </div>
-            </div>
-         </section>
+     
          <!--review-->
          <section class="review">
             <div class="container">
