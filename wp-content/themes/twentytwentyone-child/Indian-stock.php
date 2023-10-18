@@ -49,7 +49,7 @@ Template Name: Indian Stock
            <div class="container">
              <div class="row">
 			 <div class="col-sm-12">
-                   <h3>Open an Account</h3>
+                   <h3 class="account-text">Open an Account</h3>
               </div>
                <div class="col-sm-12 col-md-12 col-lg-6">
                  <div class="open-lists-left"> 
@@ -72,9 +72,15 @@ Template Name: Indian Stock
                <?php endwhile;
 			   else:
 			   endif; ?>
+			    
                  </div>
+				 
                </div>
+			   
                </div>
+			  <div class="col-md-12 col-md-12 txtt">
+			   <p>For Mobile numbers linked with Aadhar, the account opening process is completely digital </p>
+			   </div>
              </div>
            </div>
          </section>
