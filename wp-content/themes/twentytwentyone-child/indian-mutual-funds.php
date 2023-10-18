@@ -36,14 +36,17 @@ Template Name: indian mutual funds
                         </div>
                         <div class="row second">
 						<?php
+						$i=0;
                        if( have_rows('mutual-box-repeater') ):
                           while( have_rows('mutual-box-repeater') ) : the_row(); ?>
                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                              <div class="mutual_box first">
+                              <div class="mutual_box <?php if($i%3==0){echo 'first';}else if($i%3==1){ echo 'borders';}else{ echo 'third';}?>" id="<?php echo $i; ?>">
                                  <p><?php the_sub_field('mutual-box-cntnt'); ?></p>
                               </div>
                            </div>
-                    <?php endwhile;
+                    <?php
+                        $i++;
+					endwhile;
                         else :
                      endif; ?>
                         </div>
