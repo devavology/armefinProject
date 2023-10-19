@@ -22,6 +22,16 @@ Template Name: Home
                     <div class="content">
                      <?php the_sub_field('banner-cntnt'); ?>
                       <!-- <div class="banner-btns"><a href="#">Join Newsletter</a><a href="#">Join Quiz</a></div> -->
+                        <div class="banner-btns">
+						<?php 
+                   $link = get_sub_field('banner-btn');
+                  if( $link ): 
+                      $link_url = $link['url'];
+                      $link_title = $link['title']
+                    ?>
+                   <a href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
+					<?php endif; ?>
+                            </div>
                     </div>
                   </div>
              <?php endwhile;
@@ -34,7 +44,40 @@ Template Name: Home
         </div>
       </section>
 	  
-	  
+	   <section class="premium_part">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="heading">
+                 <h2><?php the_field('premium-heading'); ?></h2>
+              </div>
+            </div>
+			<?php if(have_rows('premium-repeater')): 
+			      while(have_rows('premium-repeater')) : the_row();?>
+            <div class="col-sm-12 col-md-6 col-lg-6 outer">
+              <div class="boxes-premium">
+                <article>
+                <img src="<?php the_sub_field('box-img'); ?>" alt="return">
+                <?php the_sub_field('premium-content'); ?>
+              </article>
+                <div class="box_btn">
+				<?php 
+                  $link = get_sub_field('know-more-btn');
+                 if( $link ): 
+                   $link_url = $link['url'];
+                   $link_title = $link['title'];                
+                   ?>
+                  <a href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                 <?php endif; ?>
+                </div>
+              </div>
+            </div>
+           <?php endwhile;
+		   else:
+		   endif; ?>
+          </div>
+        </div>
+      </section>
           <!--Insights-->
         <section class="expert investment_boxes">
            <div class="container">
@@ -59,8 +102,9 @@ Template Name: Home
             $link = get_sub_field('investment-link');
                if( $link ): 
                   $link_title = $link['title'];
+				  $link_url = $link['url']
                   ?>
-             <a href="#"><?php echo esc_html( $link_title ); ?></a>
+             <a href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
              <?php endif; ?>
                      </div>
                  </div>
@@ -72,6 +116,31 @@ Template Name: Home
              </div>
            </div>
          </section>
+		 
+		       <section class="investment_slider">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="heading">
+                                        <h2><?php the_field('our-partner'); ?></h2>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="owl-carousel investment_slide">
+								<?php 	if( have_rows('partner-repeater') ):
+                                    while( have_rows('partner-repeater') ) : the_row(); ?>
+                                        <div class="investment_child">
+                                            <img src="<?php the_sub_field('partner-img'); ?>" alt="icon" class="img-fluid" />
+                                        </div>
+                             <?php           endwhile;
+                                          else :
+                                       endif; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+					
 		 <!--review-->
       <section class="premium-solutions">
         <div class="container">
@@ -117,9 +186,10 @@ Template Name: Home
                          <?php 
                       $link = get_field('insight-quizz-btn');
                      if( $link ): 
+					   $link_url = $link['url'];
                        $link_title = $link['title'];
                    ?>
-                 <a class="orange_btn" href="#"><?php echo esc_html( $link_title ); ?></a>
+                 <a class="orange_btn" href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
                      <?php endif; ?>                                  
                                         </div>
                                     </div>
@@ -217,6 +287,9 @@ Template Name: Home
           </div>
         </div>
       </section>
+	  
+	  
+	  
 	   <!--Wealth-->
       <section class="global_search top_tips">
         <div class="container">
@@ -238,7 +311,7 @@ Template Name: Home
                     <?php the_sub_field('wealth-demat-cntnt'); ?>
                     <div class="box_btn">
 					<?php 
-					$link = get_sub_field('	wealth-btn');
+					$link = get_sub_field('wealth-btn');
 					if($link):
                $link_url = $link['url'];
                $link_title = $link['title'];	  ?>
@@ -285,29 +358,7 @@ Template Name: Home
       </div>
       </div> -->
                 
-                    <section class="investment_slider">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12">
-                                    <div class="heading">
-                                        <h2><?php the_field('our-partner'); ?></h2>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-12">
-                                    <div class="owl-carousel investment_slide">
-								<?php 	if( have_rows('partner-repeater') ):
-                                    while( have_rows('partner-repeater') ) : the_row(); ?>
-                                        <div class="investment_child">
-                                            <img src="<?php the_sub_field('partner-img'); ?>" alt="icon" class="img-fluid" />
-                                        </div>
-                             <?php           endwhile;
-                                          else :
-                                       endif; ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+              
 
 
 <?php get_footer(); ?>
