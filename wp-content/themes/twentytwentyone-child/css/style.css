@@ -3807,10 +3807,10 @@ animation: rotate 18s .5s infinite linear reverse;
 animation: rotate 15s .1s infinite linear;
 }
 
-@keyframes rotate {
+/*@keyframes rotate {
 0% transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
 100% transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
-}
+}*/
 
 .bnr_slider .owl-dots {
 text-align: center;
