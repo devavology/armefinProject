@@ -21,7 +21,6 @@ Template Name: Home
                     <img src="<?php the_sub_field('banner-img'); ?>" class="img-fluid" alt="...">
                     <div class="content">
                      <?php the_sub_field('banner-cntnt'); ?>
-                      <!-- <div class="banner-btns"><a href="#">Join Newsletter</a><a href="#">Join Quiz</a></div> -->
                         <div class="banner-btns">
 						<?php 
                    $link = get_sub_field('banner-btn');
@@ -78,8 +77,7 @@ Template Name: Home
           </div>
         </div>
       </section>
-      
-		 
+      		 
 		       <section class="investment_slider">
                         <div class="container">
                             <div class="row">
@@ -161,7 +159,7 @@ Template Name: Home
                         </div>
                     </section>
 					
-					      <!--investment-->
+ <!--investment-->
       <section class="investment">
         <div class="container">
           <div class="row">
@@ -194,9 +192,9 @@ Template Name: Home
                 </div>
               </div>
             </div>
-      <?php endwhile; 
-	  else:
-	  endif; ?>
+       <?php endwhile; 
+	        else:
+	      endif; ?>
 
           </div>
         </div>
@@ -228,7 +226,6 @@ Template Name: Home
                 </div>
               </div>
             </div>
-            <!--       <div class="col-sm-12 col-md-6 col-lg-6"><div class="investment_box second"><img src="img/management-blue.png" class="img-fluid" alt="rocket" /><h3>Portfolio Management</h3><p>Let the Top asset managers & advisors manage and deliver higher market-beating returns in your own accounts.</p><div class="box_btn"><a href="#">KNOW MORE</a></div></div></div> -->
           </div>
         </div>
       </section>
@@ -299,29 +296,6 @@ Template Name: Home
         </div>
       </section>
      
-              
-                    <!--  <div class="debt">
-      <div class="container">
-        <div class="row startup_row">
-         <div class="col-sm-12 col-md-6 col-lg-6">
-           <div class="startup_right">
-            <h2>Debt Funding</h2>
-            <p>Armefin works with established businesses which are looking to raise debt from Banks, NBFCs or Private credit from AIFs & Family Offices to fulfill their project requirements.</p>
-               <div class="box_btn">
-                  <a href="#">VIEW INSIGHTS</a>
-               </div>
-           </div>
-         </div>
-         <div class="col-sm-12 col-md-6 col-lg-6">
-           <div class="startup_left">
-           <img src="img/startup.png" class="img-fluid" alt="startup">
-           </div>
-         </div>
-      </div>
-      </div>
-      </div> -->
                 
-              
-
-
+             
 <?php get_footer(); ?>
