@@ -78,44 +78,7 @@ Template Name: Home
           </div>
         </div>
       </section>
-          <!--Insights-->
-        <section class="expert investment_boxes">
-           <div class="container">
-             <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12 outer">
-                     <div class="heading">
-                        <h2><?php the_field('insight-heading'); ?></h2>
-                     </div>
-                  </div>
-                </div>
-                <div class="row">
-				<?php
-                if( have_rows('insight-repeater') ):
-               while( have_rows('insight-repeater') ) : the_row();  ?>
-                <div class="col-sm-12 col-md-6 col-lg-6 outer">
-                 <div class="box">
-                     <span><?php the_sub_field('investment-span'); ?></span>
-                     <h3><?php the_sub_field('investment-funds'); ?></h3>
-                     <p><?php the_sub_field('investment-text'); ?></p>
-                     <div class="box_btn">
-                        <?php 
-            $link = get_sub_field('investment-link');
-               if( $link ): 
-                  $link_title = $link['title'];
-				  $link_url = $link['url']
-                  ?>
-             <a href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
-             <?php endif; ?>
-                     </div>
-                 </div>
-               </div>
-			<?php      endwhile;
-                     else :
-                   endif;   ?>
-               
-             </div>
-           </div>
-         </section>
+      
 		 
 		       <section class="investment_slider">
                         <div class="container">
