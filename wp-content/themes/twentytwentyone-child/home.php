@@ -51,7 +51,7 @@ Template Name: Home
                  <h2><?php the_field('premium-heading'); ?></h2>
               </div>
             </div>
-			<?php if(have_rows('premium-repeater')): 
+		      	<?php if(have_rows('premium-repeater')): 
 			      while(have_rows('premium-repeater')) : the_row();?>
             <div class="col-sm-12 col-md-6 col-lg-6 outer">
               <div class="boxes-premium">
@@ -60,7 +60,7 @@ Template Name: Home
                 <?php the_sub_field('premium-content'); ?>
               </article>
                 <div class="box_btn">
-				<?php 
+			        	<?php 
                   $link = get_sub_field('know-more-btn');
                  if( $link ): 
                    $link_url = $link['url'];
@@ -77,8 +77,8 @@ Template Name: Home
           </div>
         </div>
       </section>
-      		 
-		       <section class="investment_slider">
+
+		     <section class="investment_slider">
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12 col-md-12">
@@ -88,12 +88,12 @@ Template Name: Home
                                 </div>
                                 <div class="col-sm-12 col-md-12">
                                     <div class="owl-carousel investment_slide">
-								<?php 	if( have_rows('partner-repeater') ):
+							                  	<?php 	if( have_rows('partner-repeater') ):
                                     while( have_rows('partner-repeater') ) : the_row(); ?>
                                         <div class="investment_child">
                                             <img src="<?php the_sub_field('partner-img'); ?>" alt="icon" class="img-fluid" />
                                         </div>
-                             <?php           endwhile;
+                                    <?php     endwhile;
                                           else :
                                        endif; ?>
                                     </div>
@@ -106,8 +106,8 @@ Template Name: Home
       <section class="premium-solutions">
         <div class="container">
           <div class="row">
-		  <?php if(have_rows('reviews-repeater')): 
-		    while(have_rows('reviews-repeater')): the_row();?>
+		       <?php if(have_rows('reviews-repeater')): 
+		           while(have_rows('reviews-repeater')): the_row();?>
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="premium-solutions-box">
                 <?php the_sub_field('review-text'); ?>
@@ -125,7 +125,7 @@ Template Name: Home
                             <div class="row">
                                 <div class="col-sm-12 col-md-12">
                                     <div class="insights_img">
-									<?php if( get_field('insight-img') ): ?>
+									           <?php if( get_field('insight-img') ): ?>
                                  <img src="<?php the_field('insight-img'); ?>" class="img-fluid" alt="insights_img" />
                               <?php endif; ?>
                                        
@@ -147,10 +147,10 @@ Template Name: Home
                          <?php 
                       $link = get_field('insight-quizz-btn');
                      if( $link ): 
-					   $link_url = $link['url'];
+					             $link_url = $link['url'];
                        $link_title = $link['title'];
                    ?>
-                 <a class="orange_btn" href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                   <a class="orange_btn" href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
                      <?php endif; ?>                                  
                                         </div>
                                     </div>
@@ -180,14 +180,14 @@ Template Name: Home
                 <div class="content">
                   <p><?php the_sub_field('fluid-text'); ?></p>
                   <div class="box_btn">
-				  <?php 
+			            	  <?php 
                     $link = get_sub_field('fluid-btn');
                      if( $link ): 
                         $link_url = $link['url'];
                         $link_title = $link['title'];
                              ?>
                     <a href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
-					<?php endif; ?>
+				         	<?php endif; ?>
                   </div>
                 </div>
               </div>
@@ -206,15 +206,15 @@ Template Name: Home
             <div class="col-sm-12 col-md-12 col-lg-12 outer">
               <div class="investment_box first">
                 <div class="figure">
-				<?php if(get_field('investment-platform-img')): ?>
+			        	<?php if(get_field('investment-platform-img')): ?>
                   <img src="<?php the_field('investment-platform-img'); ?>" class="img-fluid" alt="stocks" />
-				  <?php endif; ?>
+				          <?php endif; ?>
                   <h3><?php the_field('investment-platform-text'); ?></h3>
                 </div>
                 <div class="content">
                   <p><?php the_field('investment-platform-cntnt'); ?></p>
                   <div class="box_btn">
-				  <?php 
+				        <?php 
                  $link = get_field('investment-platform-link');
                  if( $link ): 
                   $link_url = $link['url'];
@@ -234,7 +234,7 @@ Template Name: Home
       <section class="review">
         <div class="container">
           <div class="row">
-		  <?php if(have_rows('review-left-repeater')):
+		       <?php if(have_rows('review-left-repeater')):
              while(have_rows('review-left-repeater')): the_row();  ?>
             <div class="col-sm-4 col-md-4 col-lg-4">
               <div class="review_left">
