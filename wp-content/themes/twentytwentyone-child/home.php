@@ -41,7 +41,8 @@ Template Name: Home
           </div>
         </div>
       </section>
-	  
+	
+      <!--premium part -->
 	   <section class="premium_part">
         <div class="container">
           <div class="row">
