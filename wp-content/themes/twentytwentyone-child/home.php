@@ -6,8 +6,7 @@ Template Name: Home
 ?>
 <?php get_header(); ?>
 
- <main>
-      		 
+ <main>     		 
    <!--banner-->
       <section class="banner">
         <div class="container-fluid">
@@ -15,27 +14,27 @@ Template Name: Home
             <div class="col-sm-12 col-md-12 col-lg-12 p-0">
               <div class="banner_left">
                 <div class="owl-carousel bnr_slider">
-				<?php if(have_rows('banner-repeater')):
+			        	<?php if(have_rows('banner-repeater')):
                   while(have_rows('banner-repeater')): the_row();	?>
                   <div>
                     <img src="<?php the_sub_field('banner-img'); ?>" class="img-fluid" alt="...">
                     <div class="content">
                      <?php the_sub_field('banner-cntnt'); ?>
-                        <div class="banner-btns">
-						<?php 
+                      <div class="banner-btns">
+					      	<?php 
                    $link = get_sub_field('banner-btn');
                   if( $link ): 
                       $link_url = $link['url'];
                       $link_title = $link['title']
                     ?>
                    <a href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
-					<?php endif; ?>
+					          <?php endif; ?>
                             </div>
                     </div>
                   </div>
              <?php endwhile;
-			 else:
-			 endif; ?>
+			        else:
+			        endif; ?>
                 </div>
               </div>
             </div>
@@ -136,9 +135,9 @@ Template Name: Home
                                         <h2><?php the_field('insight-armefin-text'); ?></h2>
                                         <p><?php the_field('insight-armefin-cntnt'); ?></p>
                                         <div class="box_btn">
-										<?php 
+							      			<?php 
                            $link = get_field('insight-armefin-btn');
-                        if( $link ): 
+                          if( $link ): 
                           $link_url = $link['url'];
                           $link_title = $link['title']; 
                            ?>
@@ -157,8 +156,7 @@ Template Name: Home
                                 </div>
                             </div>
                         </div>
-                    </section>
-					
+                    </section>					
  <!--investment-->
       <section class="investment">
         <div class="container">
@@ -168,8 +166,8 @@ Template Name: Home
                 <h2><?php the_field('investment-heading'); ?></h2>
               </div>
             </div>
-			<?php $i=0; 
-			if(have_rows('investment-repeater')):
+		   	<?php $i=0; 
+			   if(have_rows('investment-repeater')):
 			    while(have_rows('investment-repeater')): the_row();?>
             <div class="col-sm-12 col-md-12 col-lg-12 <?php if($i%2==0) {echo'outer';} else {echo'';} ?> ">
               <div class="investment_box first">
@@ -195,7 +193,6 @@ Template Name: Home
        <?php endwhile; 
 	        else:
 	      endif; ?>
-
           </div>
         </div>
       </section>
@@ -228,9 +225,8 @@ Template Name: Home
             </div>
           </div>
         </div>
-      </section>
-      
-              <!--review-->
+      </section>     
+      <!--review-->
       <section class="review">
         <div class="container">
           <div class="row">
@@ -246,10 +242,7 @@ Template Name: Home
 		          endif; ?>
           </div>
         </div>
-      </section>
-	  
-	  
-	  
+      </section>  
 	   <!--Wealth-->
       <section class="global_search top_tips">
         <div class="container">
@@ -275,8 +268,8 @@ Template Name: Home
 					if($link):
                $link_url = $link['url'];
                $link_title = $link['title'];	  ?>
-                      <a href="<?php echo esc_url($link_url);?>"><?php echo esc_html($link_title); ?></a>
-					  <?php endif; ?>
+                  <a href="<?php echo esc_url($link_url);?>"><?php echo esc_html($link_title); ?></a>
+					          <?php endif; ?>
                     </div>
                   </div>
                 </div>
@@ -294,8 +287,5 @@ Template Name: Home
 	   endif; ?>
           </div>
         </div>
-      </section>
-     
-                
-             
+      </section>           
 <?php get_footer(); ?>
