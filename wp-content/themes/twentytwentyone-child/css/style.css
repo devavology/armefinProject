@@ -4052,3 +4052,116 @@ background: #f27949;
 left: 0;
 border-radius: 50%;
 }
+
+/*--overview-main--*/
+.overview-main{
+    padding: 60px 0;
+    }
+    .overview-main .heading h2{
+    text-align: left;
+    font-size: 36px;
+    }
+    .overview-heading h3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    color: #f27949;
+    }
+    .over-bg {
+    background: #f0f5f9;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 55%, rgb(224 224 230) 100%);
+    padding: 40px 40px;
+    border-radius: 8px;
+    }
+    
+    .overview-heading {
+    margin-top: 40px;
+    }
+    
+    .overview-heading figure {
+    margin: 41px 0;
+    }
+    
+    .investment-objective{
+    background: url(../img/investment-objective.jpg)no-repeat center center;
+    width: 100%;
+    padding: 40px 40px;
+    border-radius: 8px;
+    }
+    .investment-objective h3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    color: #f27949;
+    }
+    
+    .research-img{
+    margin-top: 60px;
+    overflow: hidden;
+    }
+    .research-img img{
+    transition: all .3s ease;
+    transform: scale(0.9);
+    }
+    .research-img img:hover{
+    transform: scale(1);
+    }
+    
+    .over-bg-two img{
+    transition: all .3s ease;
+    transform: scale(0.9);
+    }
+    .over-bg-two img:hover{
+    transform: scale(1);
+    }
+    
+    .historical h3{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    color: #f27949;	
+    margin-bottom: 30px;
+    }
+    
+    .historical {
+    background: #f6f6f6;
+    padding: 40px;
+    border-radius: 8px;
+    }
+    
+    section.contact_form.pri-form.psm {
+    margin-top: 50px;
+    border-radius: 8px;
+    }
+    p.read-about{
+        margin-top: 30px;
+    }
+    p.read-about a {
+    color: #111743;
+    text-decoration: underline;
+    }
+    
+    .comment-social ul li a {
+    width: 40px;
+    height: 40px;
+    background: #f27949;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 11px;
+    border-radius: 50%;
+    color: #fff;
+    }
+    .comment-social ul li a:first-child {
+    margin-left:0
+    }
+    .comment-social ul {
+    display: flex;
+    margin-top:40px;
+    margin-bottom: 40px;
+    }
+    
+    p.para-comment {
+    margin-top: 40px;
+    font-weight: 600;
+    }
