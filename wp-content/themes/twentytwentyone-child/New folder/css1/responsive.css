@@ -1,0 +1,393 @@
+@media only screen and (min-width: 993px) {
+.menu-dropdown:hover > .submenu {
+display: block;
+opacity: 1;
+visibility: visible;
+transform: translateY(0);
+}
+}
+
+@media (max-width: 1200px) { 
+h1 {
+font-size: 50px;
+}
+.investment_box.first {
+margin-right: 5px;
+}
+.investment_box.second {
+margin-left: 5px;
+}
+.investment_box {
+padding: 60px 33px 55px;
+}
+.premium-solutions-box {
+height: 310px;
+width: 310px;
+}
+header .navbar .navbar-links .links li a {
+font-size: 15px;
+}
+header .navbar .navbar-links .links li {
+padding: 0 7px;
+}
+.get-in {
+width: 143px;
+margin-left: 5px;
+}
+.what_demat_left img {
+border-radius: 10px;
+height: 100%;
+object-fit: cover;
+}
+.banner_right img {
+height: auto;
+}
+}
+
+
+
+
+
+@media (max-width: 991px) { 
+header .navbar {
+width: 100%;
+height: 100%;
+}
+
+header .navbar .logo a {
+font-size: 22px;
+}
+
+header .navbar .navbar-links .links li {
+padding: 0 10px;
+}
+
+header .navbar .navbar-links {
+display: block;
+position: fixed;
+top: 0;
+left: -100%;
+background: #1565ca;
+max-width: 270px;
+width: 100%;
+padding: 20px;
+line-height: 40px;
+transition: all 0.5s ease;
+z-index: 99;
+}
+
+header .navbar .logo {
+display: flex;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+}
+.navigation .container {
+height: 100%;
+}
+header .navbar .logo i {
+display: block;
+cursor: pointer;
+}
+header .navbar .navbar-links .sidebar-logo {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+header .navbar .navbar-links .sidebar-logo a {
+font-size: 24px;
+font-weight: bold;
+color: #fff;
+}
+
+header .navbar .navbar-links .sidebar-logo i {
+font-size: 24px;
+color: #fff;
+cursor: pointer;
+padding: 5px;
+width: 100%;
+text-align: right;
+}
+
+header .navbar .navbar-links .links {
+display: block;
+margin-top: 20px;
+}
+
+header .navbar .navbar-links .links li {
+display: block;
+line-height: 40px;
+}
+
+header .navbar .navbar-links .links li i.fa-chevron-down {
+line-height: 40px;
+}
+
+header .navbar .navbar-links .links .sub-menu {
+display: none;
+position: relative;
+top: 0;
+left: 0;
+box-shadow: none;
+}
+header .navbar .navbar-links .links .sub-menu li {
+border: none;
+}
+
+header .navbar .navbar-links .links .sub-menu li.more-submenu {
+position: relative;
+}
+
+header .navbar .navbar-links .links .sub-menu li.more-submenu .more-sub-menu {
+display: none;
+position: relative;
+left: 0;
+top: 0;
+}
+
+header .navbar .navbar-links .links li:hover .sub-menu {
+display: none;
+}
+
+header .navbar .navbar-links .links li:hover .sub-menu,
+header
+.navbar
+.navbar-links
+.links
+.sub-menu
+.more-submenu:hover
+.more-sub-menu {
+display: none;
+}
+
+header .navbar .navbar-links .links li i.fa-chevron-down,
+header .navbar .navbar-links .links li:hover i.fa-chevron-down {
+transform: rotate(0deg);
+}
+
+header .navbar .navbar-links .links .sub-menu li i.fa-chevron-down {
+transform: rotate(-90deg);
+}
+
+header .navbar .navbar-links .links li.active .sub-menu {
+display: block;
+}
+
+header .navbar .navbar-links .links li.active > i {
+transform: rotate(-180deg);
+}
+header .navbar .navbar-links .links li.active:hover > i {
+transform: rotate(-180deg);
+}
+
+header .navbar .navbar-links .links .sub-menu li .more-sub-menu {
+display: none;
+}
+header .navbar .navbar-links .links .sub-menu li i {
+transform: rotate(-90deg);
+}
+header
+.navbar
+.navbar-links
+.links
+li.active
+.sub-menu
+li.show-menu
+.more-sub-menu {
+display: block;
+}
+
+header .navbar .navbar-links .links .sub-menu li.show-menu i.fa-chevron-down {
+transform: rotate(0deg);
+}
+header.nav-fix {
+padding: 10px 0;
+}
+.navigation {
+padding: 10px 0;
+}
+header .navbar .navbar-links .links li a {
+color: #fffcfc;
+}
+header .navbar .navbar-links .links li > i.fa-chevron-down {
+color: #fff;
+}
+header .navbar .logo img{
+width: 225px;
+}
+.get-in {
+padding: 3px 20px;
+}
+h1 {
+font-size: 40px;
+}
+.banner_left p {
+font-size: 25px;
+}
+.investment_box h3 {
+font-size: 30px;
+}
+.investment_box p {
+font-size: 18px;
+}
+.investment_box.first {
+margin-right: 0px;
+}
+.investment_box.second {
+margin-left: 0px;
+}
+
+.investment_box {
+padding: 60px 26px 55px;
+}
+.global_search_right {
+padding: 40px 40px 40px 40px;
+}
+.global_search_right h4 {
+font-size: 35px;
+}
+.startup_right h2 {
+font-size: 45px;
+}
+.startup_right p {
+padding: 16px 0;
+}
+.startup_left {
+height: 100%;
+}
+
+.startup_left img {
+height: 100%;
+width: 100%;
+}
+.premium-solutions-box {
+margin: 20px auto;
+}
+header .navbar .navbar-links .links .sub-menu li {
+padding: 4px 0px;
+}
+.global_search_right p {
+font-size: 20px;
+}
+.footer_links {
+margin-bottom: 20px;
+}
+.indian_platform_box {
+text-align: center;
+margin-bottom: 40px;
+}
+.investment_india_left {
+margin-bottom: 40px;
+}
+.investment_india_left {
+max-width: 100%;
+}
+}
+
+
+@media (max-width: 767px) { 
+.banner_right {
+margin-top: 40px;
+text-align: center;
+}
+.investment_box.second {
+margin-top: 40px;
+}
+.heading h2 {
+font-size: 40px;
+}
+.global_search_right {
+padding: 40px 20px 40px 20px;
+}
+.startup_right {
+padding-top: 30px;
+}
+.startup_right h2 {
+font-size: 35px;
+}
+h1 {
+font-size: 35px;
+}
+.investment.platforms .outer {
+margin-top: 34px;
+}
+.heading h2 {
+font-size: 36px;
+}
+.investment_banking .box h3 {
+font-size: 36px;
+}
+.footer_logo {
+margin-bottom: 20px;
+}
+.insights .heading .box_btn a {
+display: block;
+margin: auto;
+}
+.insights .heading .box_btn a:nth-child(2) {
+margin-top: 20px;
+}
+.about_journey_left .heading h2 {
+font-size: 29px;
+}
+.contact-boxes {
+margin-top: 40px;
+}
+.investment_india_left {
+max-width: 500px;
+margin: 40px auto;
+}
+.mutual_funds_future .what_demat_left h2 {
+font-size: 35px;
+}
+.mutual_funds_future .mutual_box p {
+font-size: 16px;
+}
+}
+
+@media (max-width: 575px) { 
+.banner-btns {
+flex-direction: column;
+}
+.banner-btns a:nth-child(2) {
+margin-left: 0px;
+margin-top: 20px;
+}
+.review_left {
+margin: 14px 0;
+}
+.startup_right p {
+padding: 18px 0;
+}
+.premium-solutions-box {
+height: 270px;
+width: 270px;
+}
+.premium-solutions-box h3 {
+font-size: 70px;
+}
+.premium-solutions-box p {
+font-size: 25px;
+}
+.topbar {
+padding: 14px 0;
+}
+.topbar_left {
+text-align: center;
+}
+.topbar_icon {
+text-align: center;
+padding-top: 12px;
+}
+.topbar_icon ul {
+justify-content: center;
+}
+.mutual_funds_future .mutual_box.third {
+justify-content: start;
+margin-top: 20px;
+}
+}
+
+
+
