@@ -97,7 +97,7 @@
                                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
                                                     </li>
                                                     <li>
                                                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -131,6 +131,7 @@
        <script>
          $(document).ready(function(){
            $('.links').click(function(){
+
              $('.links').removeClass("links_actives");
              $(this).addClass("links_actives");
          });
@@ -502,23 +503,13 @@ particlesJS("particles-js", {
          
          });
       </script>
-	  
-<script>
-$(document).ready(function() {
-    // Get the current URL
-    var currentUrl = window.location.href;
 
-    // Loop through each anchor tag in the menu
-    $('#menu a').each(function() {
-        var targetUrl = $(this).attr('href');
-
-        // Compare the current URL to the anchor's href
-        if (currentUrl.indexOf(targetUrl) !== -1) {
-            // If they match, add the "active" class
-            $(this).addClass('actives');
-        }
+<script >
+ $(document).ready(function() {
+        $('#menu-navigation-menu li a').on('click', function(event) {
+            $("#menu-navigation-menu li a").addClass('active');
+        });
     });
-});
-</script>	  
+</script>
 </body>
 </html>
