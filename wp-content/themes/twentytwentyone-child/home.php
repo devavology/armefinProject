@@ -108,7 +108,7 @@ Template Name: Home
           <div class="row">
 		       <?php if(have_rows('reviews-repeater')): 
 		           while(have_rows('reviews-repeater')): the_row();?>
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="premium-solutions-box">
                 <?php the_sub_field('review-text'); ?>
               </div>
@@ -170,7 +170,7 @@ Template Name: Home
 		   	<?php $i=0; 
 			   if(have_rows('investment-repeater')):
 			    while(have_rows('investment-repeater')): the_row();?>
-            <div class="col-sm-12 col-md-12 col-lg-12 <?php if($i%2==0) {echo'outer';} else {echo'';} ?> ">
+            <div class="col-sm-12 col-md-12 col-lg-12 <?php if($i%3==0){echo 'outer';}else if($i%3==1){ echo 'outer outer-space';}else{ echo '';}?> id="<?php echo $i; ?>">
               <div class="investment_box first">
                 <div class="figure">
                   <img src="<?php the_sub_field('img-fluid'); ?>" class="img-fluid" alt="stocks" />
@@ -191,7 +191,8 @@ Template Name: Home
                 </div>
               </div>
             </div>
-       <?php endwhile; 
+       <?php  $i++;
+     endwhile; 
 	        else:
 	      endif; ?>
           </div>
@@ -258,7 +259,7 @@ Template Name: Home
 		  <?php $i=0;
 		  if(have_rows('wealth-repeater')):
 		      while(have_rows('wealth-repeater')): the_row(); ?>
-            <div class="row <?php if($i%3==0){echo 'first';}else if($i%3==1){ echo 'flex-wrap-reverse mt-5';}else{ echo 'mt-5';}?>" id="<?php echo $i; ?>">
+            <div class="row <?php if($i%3==0){echo '';}else if($i%3==1){ echo 'flex-wrap-reverse mt-5';}else{ echo 'mt-5';}?>" id="<?php echo $i; ?>">
               <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="what_demat_left_flex first">
                   <div class="what_demat_left ">
