@@ -502,5 +502,23 @@ particlesJS("particles-js", {
          
          });
       </script>
+	  
+<script>
+$(document).ready(function() {
+    // Get the current URL
+    var currentUrl = window.location.href;
+
+    // Loop through each anchor tag in the menu
+    $('#menu a').each(function() {
+        var targetUrl = $(this).attr('href');
+
+        // Compare the current URL to the anchor's href
+        if (currentUrl.indexOf(targetUrl) !== -1) {
+            // If they match, add the "active" class
+            $(this).addClass('actives');
+        }
+    });
+});
+</script>	  
 </body>
 </html>
