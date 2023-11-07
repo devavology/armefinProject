@@ -33,21 +33,19 @@
              <div class="row">
                <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="largest_demand_left first">
-                   <h2>Indian Offshore Funds ($)</h2>
-				   <p>"Discover Indian Offshore Funds for NRIs & Non-Indians</p>
-<h5>Why Choose Offshore Funds?</h5>
-<p>Icons: Healthy Profits ,  No Tax hassle, No Forex loss</p>
-<h5>How Armefin Can Assist You:</h5>
-<p>At Armefin, we simplify your investment journey. Our dedicated team of experts guide you through the selection of best Offshore funds for Indian markets , ensuring you take advantage of India’s golden decade with High Return on Investments and Zero hassle of Tax payments or worry about Forex losses due to Dollar volatility. We provide personalized support and insights to enhance your investment experience and frequent portfolio review.<br>
-                    USD Funds box from current website. </p>
-<h5>Flexible opportunities</h5>
-<p>Long-term debt can be used for a multitude of business purposes from MBOs, to shareholder transaction, from property developments to growth capital. Every business strategy is different and finding the right type of funding and right partner is essential to fulfilling business growth plans.</p>
+                   <h2>Advantages of Debt Funding</h2>
+                    <h5>Owners keep business control</h5>
+                    <p>A major advantage of securing debt funding is that you do not need to give up stakes in the business in order to receive capital. Unlike equity finance, decision making and business control remains undiluted, giving the comfort that the current management team is still 100% in control.</p>
+                   <h5>Flexible repayment plans</h5>
+                   <p>With repayments and interest set out in advance, a business can monitor cashflows and plan for future growth. You will know how much is needed to be paid back each month thereby supporting better budgeting and planning.</p>
+                   <h5>Flexible opportunities</h5>
+                   <p>Long-term debt can be used for a multitude of business purposes from MBOs, to shareholder transaction, from property developments to growth capital. Every business strategy is different and finding the right type of funding and right partner is essential to fulfilling business growth plans.</p>
                  </div>
                </div>
                <div class="col-sm-12 col-md-6 col-lg-6">
                  <div class="largest_demand_left second">
-				                    <img src="http://localhost/armfin/wp-content/uploads/2023/11/offshore-fund.png" class="img-fluid" alt="demat">
-				                    </div>
+				   <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/10/advantage-debt.png" class="img-fluid" alt="demat">
+				   </div>
                </div>
              </div>
            </div>
@@ -150,7 +148,7 @@
                     <h2>Portfolio Management Services ₹</h2>
 					<h5>Animation: Elevate Your Wealth Management with PMS Solutions </h5>
 					<p>Portfolio Management Services (PMS) are investment strategies designed to achieve market beating profits by experienced fund managers in dedicated accounts. Managed by experienced professionals who conduct extensive research and evaluate securities. These PMS solutions are meticulously crafted to generate Alpha in your dedicated account, promising not just growth, but thriving prosperity for your investments.
-Minimum Investment: 50 lakhs</p>
+                    Minimum Investment: 50 lakhs</p>
 					
                     <div class="box_btn">
                       <a href="#">Get Started </a>

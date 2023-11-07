@@ -14,7 +14,7 @@
 <section class="premium-solutions mobile-view">
         <div class="container">
           <div class="row">
-                  <div class="owl-carousel owl-theme">
+                  <div class="owl-carouselss owl-theme">
 		                   <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="premium-solutions-box">
                 <h3>248</h3>
@@ -39,13 +39,10 @@
       </section>
 
 <style>
-
-.
-
 /* Hide the slider on tablets */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .mobile-view {
-        display: none;
+.mobile-view {
+display: none;
     }
 }
 @media screen and (min-width: 575px){
@@ -55,7 +52,7 @@ display: block;
 }
 </style>
 <script>
-jQuery('.owl-carousel').owlCarousel({
+jQuery('.owl-carouselss').owlCarousel({
     loop: true,
     margin: 10,
     responsiveClass: true,

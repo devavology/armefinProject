@@ -33,13 +33,13 @@ Template Name: investment platform
                   <div class="col-sm-12 col-md-6 col-lg-6">
                      <div class="what_demat_left">
                         <h2>Indian Stocks</h2>
-<p class="para">Indian stock market companies will be making a significant contribution to the growth of Indian economy and will make money for the Investors taking advantage in the coming years. Armefin provides direct access to stocks in a thriving market for Resident & Non-Resident Indians(NRI),Indian Family offices and Companies to take advantage of the significant economic boom in India.<br>Armefin is a proud partner of zerodha</p>
+                          <p class="para">Indian stock market companies will be making a significant contribution to the growth of Indian economy and will make money for the Investors taking advantage in the coming years. Armefin provides direct access to stocks in a thriving market for Resident & Non-Resident Indians(NRI),Indian Family offices and Companies to take advantage of the significant economic boom in India.<br>Armefin is a proud partner of zerodha</p>
                      </div>
                   </div>
                   <div class="col-sm-12 col-md-6 col-lg-6">
                      <div class="what_demat_left">
-                                        <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/businessman-looking-through-telescope-growth-business-concept-illustration_667085-10.png" class="img-fluid" alt="demat">
-                                       </div>
+                        <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/businessman-looking-through-telescope-growth-business-concept-illustration_667085-10.png" class="img-fluid" alt="demat">
+                     </div>
                   </div>
                </div>
             </div>
@@ -97,7 +97,7 @@ Template Name: investment platform
                         </a>
                      </div>
                   </div>
-                            </div>
+               </div>
             </div>
          </section>
 
@@ -252,7 +252,7 @@ Template Name: investment platform
                   <div class="col-sm-12 col-md-12 col-lg-10"> 
                      <div class="faq_center">
                         <div class="accordion" id="accordionExample">
-                                               <div class="accordion-item">
+                           <div class="accordion-item">
                                <h2 class="accordion-header" id="heading0">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
                                   What types of NRI accounts does Zerodha offer?                                 </button>
@@ -262,7 +262,7 @@ Template Name: investment platform
                                    Zerodha offers two types of NRI accounts: Non-Repatriable (NRO) and Repatriable (NRE) accounts. NRO accounts are for income earned in India, while NRE accounts are for funds remitted from abroad.                                 </div>
                                </div>
                              </div>
-                                                   <div class="accordion-item">
+                               <div class="accordion-item">
                                <h2 class="accordion-header" id="heading1">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                  What are the documents required to open an NRI account with Zerodha?                                 </button>
@@ -274,7 +274,7 @@ Template Name: investment platform
                                      </div>
                                </div>
                              </div>
-                                                   <div class="accordion-item">
+                               <div class="accordion-item">
                                <h2 class="accordion-header" id="heading2">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
                                   Can an NRI trade in all segments available on Zerodha?                                 </button>
@@ -284,7 +284,7 @@ Template Name: investment platform
                                    NRIs can trade in most segments available on Zerodha, including equity delivery, equity intraday, equity futures, equity options, currency futures, and currency options. However, NRIs are not allowed to trade in commodity futures.                                 </div>
                                </div>
                              </div>
-                                                   <div class="accordion-item">
+                               <div class="accordion-item">
                                <h2 class="accordion-header" id="heading3">
                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                   How can NRIs fund their Zerodha NRI accounts?                                 </button>
@@ -324,14 +324,14 @@ Template Name: investment platform
                <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="what_demat_left">
                   <h2>Mutual Funds</h2>
-<h5>SIPs for Financial Freedom</h5>
-<p>Embark on a journey of financial growth and stability with Armefin’s carefully curated mutual fund solutions. Mutual funds offer a world of opportunities, allowing you to invest in a diverse range of assets</p>
-    <div class="box_btn">
+                   <h5>SIPs for Financial Freedom</h5>
+                     <p>Embark on a journey of financial growth and stability with Armefin’s carefully curated mutual fund solutions. Mutual funds offer a world of opportunities, allowing you to invest in a diverse range of assets</p>
+                    <div class="box_btn">
                       <a href="#">Get Started </a>
                          </div> 
                          <div class="why_mutual_funds">
                         <h5>Why Mutual Funds for SIPs?</h5>
-                  <ul class="mutual_funds_icon">
+                   <ul class="mutual_funds_icon">
                      <li>  <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/market_growth_icon_8fed64aded.png" class="img-fluid" alt="demat"></li>
                      <li> <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/money_back_821d401ae6.png" alt="demat"></li>
                      <li> <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/save_more_taxes_6181fcb93f.png" class="img-fluid" alt="demat"></li>
@@ -425,27 +425,27 @@ Template Name: investment platform
                         <div class="what_demat_left">
                            <h2>Pre-IPO Shares</h2>
                            <h5>Your Gateway to Exclusive Investment Opportunities</h5>
-              <ul class="mutual_funds_icon">
+                    <ul class="mutual_funds_icon">
                      <li>  <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/market-1.png" class="img-fluid" alt="demat"></li>
                      <li> <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/new-office-1.png" alt="demat"></li>
                      <li> <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/investment-1.png" class="img-fluid" alt="demat"></li>
                    </ul>
 
-<p>Discover the world of exclusive investment opportunities with Pre-IPO shares at Armefin. Pre-IPO, short for Pre-Initial Public Offering, refers to shares of a company that are available for purchase before the company goes public and its shares are listed on the stock exchange. </p>
+                   <p>Discover the world of exclusive investment opportunities with Pre-IPO shares at Armefin. Pre-IPO, short for Pre-Initial Public Offering, refers to shares of a company that are available for purchase before the company goes public and its shares are listed on the stock exchange. </p>
                    <div class="box_btn">
                       <a href="#">Get Started </a>
                          </div> 
-    <h5>Why Choose Armefin for Pre-IPO Investments?</h5>                     
-<p><b>Expert Curation:</b> Armefin’s team of financial experts rigorously evaluates Pre-IPO investment opportunities, conducting comprehensive research on companies, their financial health, leadership, and market positioning. Our analysis ensures that you are presented with the most promising Pre-IPO investment options.</p>
-<p><b>Exclusive Access:</b> Armefin offers exclusive access to Pre-IPO opportunities that are not readily available to the general public. This exclusivity allows you to explore investments in companies that are on the verge of making a significant impact in their respective industries</p>
-<p>Seize the opportunity to invest in the future today. Partner with Armefin and gain access to exclusive Pre-IPO shares, unlocking the potential for substantial growth and financial success.</p>
+                      <h5>Why Choose Armefin for Pre-IPO Investments?</h5>                     
+                      <p><b>Expert Curation:</b> Armefin’s team of financial experts rigorously evaluates Pre-IPO investment opportunities, conducting comprehensive research on companies, their financial health, leadership, and market positioning. Our analysis ensures that you are presented with the most promising Pre-IPO investment options.</p>
+                      <p><b>Exclusive Access:</b> Armefin offers exclusive access to Pre-IPO opportunities that are not readily available to the general public. This exclusivity allows you to explore investments in companies that are on the verge of making a significant impact in their respective industries</p>
+                      <p>Seize the opportunity to invest in the future today. Partner with Armefin and gain access to exclusive Pre-IPO shares, unlocking the potential for substantial growth and financial success.</p>
                         </div>
                      </div>
                   </div>
                   <div class="col-sm-12 col-md-12 col-lg-6">
                      <div class="what_demat_left">
-                                        <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/coronavirus-financial-recovery_23-2148552873.png" class="img-fluid" alt="demat">
-                                       </div>
+                    <img src="https://poojas.sg-host.com/armefinProject/wp-content/uploads/2023/11/coronavirus-financial-recovery_23-2148552873.png" class="img-fluid" alt="demat">
+                    </div>
                   </div>
                </div>
             </div>
