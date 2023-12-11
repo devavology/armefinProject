@@ -1,0 +1,783 @@
+button.sub-menu-toggle {
+display: none;
+}
+section.buy_sell .row {
+align-items: center;
+}
+.buy_sell_right .mutual_box.image-iconnn {
+text-align: center;
+}
+.insights_blogs_content {
+ padding-top: 50px;
+}
+/* footer */
+section.footer {
+text-align: center;
+}
+.footer_icon ul {
+justify-content: center;
+}
+.faq_center .accordion-item {
+border: 1px solid #f27949 !important;
+}
+.largest_demand_left.mutual_sip ul li img {
+width: 35px;
+}
+.image-hover h3 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #000;
+	text-align: center;
+	padding-bottom: 48px;
+}
+.merger_btn .investment_box.first {
+flex-direction: column;
+margin: auto !important;
+text-align: center;
+}
+.merger_btn .investment_box {
+	border-radius: 10px;
+	background: transparent;
+	box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 23%);
+	padding: 60px 70px 55px;
+	height: 100%;
+	transition: all .3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 600px;
+	margin: auto;
+}
+
+.merger_btn .investment_box .figure {
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.merger_btn .investment_box .content {
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+.merger_btn .investment_box .box_btn {
+text-align: center;
+}
+.merger_btn .investment_box:hover {
+ background: #eee;
+}
+
+
+.adv_in h3 {
+	font-size: 16px;
+	padding-bottom: 50px;
+	text-decoration: underline;
+}
+.forefront_left_main ul li:before {
+content: "\f058";
+position: absolute;
+left: 4px;
+font-family: 'FontAwesome';
+color: #f27949;
+padding-top: 4px;
+}
+.forefront_left_main .list-item:after {
+display: none;
+}
+/*startup-cfo */
+.image-inner h4 {
+font-size: 20px;
+}
+.image-inner:hover h3 {
+opacity: 0;
+}
+
+.image-inner p {
+font-size: 16px;
+}
+.image-inner img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.image-inner {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.image-hover {
+ padding: 60px 0 30px;
+}
+
+.image-inner h3 {
+	position: absolute;
+	background: #f27c4d;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	padding-bottom: 5px;
+	color: #fff;
+}
+
+.image-inner .hover-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	background: rgb(242 124 77 / 75%);
+	transform: translateY(100%);
+	transition: 0.5s;
+	padding: 20px;
+	color: #fff;
+}
+
+.image-inner:hover .hover-text {
+	transform: translateY(0);
+}
+/*merger-aquitision */
+section.investment.merger_btn {
+margin-top: 100px;
+}
+/* indian-mutual-funds */
+.largest_demand_left ul li {
+display: flex;
+margin: 10px 0;
+}
+ul.right-sided-img li img {
+width: 100%;
+max-width: 64px;
+}
+.largest_demand_left ul li span {
+margin-left: 20px;
+}
+
+.largest_demand_left ul {
+padding-top: 20px;
+}
+/*pitch-deck service*/
+.fixclusives_child .fix_img img {
+filter: brightness(1) invert(1) !important;
+}
+/*startup funding */
+.review_left img {
+width: 100%;
+max-width: 75px;
+}
+/* indian-stock*/
+.demat-img {
+padding-top: 50px;
+}
+/*alternative-investment-funds */
+.arrow-img.arrowss {
+right: -96px !important;
+}
+.imggs img {
+width: 100%;
+max-width: 58px;
+}
+/*indian-offshore-funds */
+.mutual_box.first.image-iconnn {
+text-align: center;
+}
+
+.mutual_box.third.image-iconnn {
+justify-content: center !important;
+}
+.box_btn.buttonnn {
+padding-top: 20px;
+text-align: center;
+}
+.image-iconnn img {
+width: 100%;
+max-width: 64px;
+}
+img.img_field {
+width: 100%;
+}
+.investment .outer:nth-of-type(3) .investment_box {
+flex-direction: row-reverse;
+}
+.investment .outer:nth-of-type(3) .investment_box .content {
+text-align: left;
+margin-left: 0;
+}
+.investment .outer:nth-of-type(3) .investment_box .content .box_btn {
+text-align: left;
+}
+.investment .outer:nth-of-type(3) .investment_box  .figure {
+text-align: right;
+}
+.flex-wrap-reverse:nth-of-type(2) {
+flex-direction: row-reverse;
+}
+span#type span.wpcf7-list-item {
+display: block;
+}
+.get-in {
+background: #111743 !important;
+color: #fffdfd !important;
+padding: 10px !important;
+border-radius: 10px !important;
+display: inline-block;
+width: 180px !important;
+text-align: center !important;
+position: relative !important;
+z-index: 0;
+}
+h3.account-text {
+text-decoration: underline;
+font-size: 32px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.col-md-12.col-md-12.txtt {
+height: 3em;
+width: 42em;
+margin-top: -131px;
+margin-left: 12px;
+}
+button#wpforms-submit-821 {
+margin-top: 52px;
+}
+div#wpforms-821 {
+background: linear-gradient(158deg, rgba(255, 255, 255, 0) 55%, rgb(216 211 211) 100%);
+border-radius: 8px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.flex-wrap-reverse {
+flex-direction: row-reverse !important;
+}
+label.wpforms-field-label {
+text-align: left;
+}
+.wpforms-submit-container {
+text-align: end;
+}
+button#wpforms-submit-1113.submitted {
+background: #111743;
+max-width: 192px;
+width: 100%;
+border-radius: 10px;
+margin: 10px 0;
+}
+button#wpforms-submit-1181.submitted {
+background: #111743;
+max-width: 192px;
+width: 100%;
+border-radius: 10px;
+margin: 10px 0;
+}
+button#wpforms-submit-1181.submitted:hover {
+background: #f27949;
+}
+
+form#wpforms-form-1181 input[type=text]:focus,form#wpforms-form-1181 input[type=email]:focus,form#wpforms-form-1181 select:read-only:focus{
+box-shadow: none;
+border: 1px solid rgb(191 191 191);
+}
+form#wpforms-form-817 input[type=text]:focus,form#wpforms-form-817 input[type=email]:focus,form#wpforms-form-817 select:read-only:focus{
+box-shadow: none;
+border: 1px solid rgb(191 191 191);
+}
+form#wpforms-form-781 input[type=text]:focus,form#wpforms-form-781 input[type=email]:focus,form#wpforms-form-781 select:read-only:focus{
+box-shadow: none;
+border: 1px solid rgb(191 191 191);
+}
+form#wpforms-form-821 input[type=text]:focus,form#wpforms-form-821 input[type=email]:focus,form#wpforms-form-821 select:read-only:focus,form#wpforms-form-821 textarea:focus{
+box-shadow: none;
+border: 1px solid rgb(191 191 191);
+}
+form#wpforms-form-1113 input[type=text]:focus,form#wpforms-form-1113 input[type=email]:focus,form#wpforms-form-1113 select:read-only:focus,form#wpforms-form-1113 textarea:focus{
+box-shadow: none;
+border: 1px solid rgb(191 191 191);
+}
+form#wpforms-form-793 input[type=text]:focus,form#wpforms-form-793 input[type=email]:focus,form#wpforms-form-793 select:read-only:focus,form#wpforms-form-793 textarea:focus{
+box-shadow: none;
+border: 1px solid rgb(191 191 191);
+}
+.wpforms-field-container {
+margin: 0 20px !important;
+}
+.wpforms-submit-container {
+padding: 18px 19px !important;
+}
+button#wpforms-submit-1113 {
+float: left !important;
+}
+button#wpforms-submit-1181 {
+float: left;
+}
+button#wpforms-submit-817 {
+float: left;
+}
+.outer.outer-space .content p {
+text-align: left !important;
+}
+.outer.outer-space {
+margin-bottom: 0 !important;
+}
+.home_services .what_demat_left_flex.first {
+padding-right: 0 !important;
+}
+li.current-menu-item a {
+color: #FB7B4E !important;
+}
+/*.premium-solutions-box{
+	margin-left: 98px !important;
+}*/
+a.button {
+color: #ffff;
+}
+a.button:hover {
+color: #ffff;
+}
+/*investment banking */
+.adv_in .row .col-12.forth:nth-child(4) .adv_box:before {
+top: 50%; 
+right: -41px; 
+bottom: 0; 
+transform: rotate(180deg) translateY(0);
+}
+ul.zerodha_list li {
+color: #000;
+font-size: 18px;
+font-weight: 500;
+}
+ul.zerodha_list li {color: #000;}
+ul.mutual_funds_icon> li img {
+width: 100%;
+max-width: 80px;
+border: 1px solid #111743;
+border-radius: 50px;
+padding: 5px;
+border-style: dashed;
+}
+/* permium investment */
+.indian_platform_box figure {
+	width: 100%;
+	max-width: 80px;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px 3px #ddd;
+}
+form.open_form.left_form {
+padding: 1px !important;
+}
+.left_form select {
+padding: 13px;
+box-shadow: none;
+outline: none;
+}
+.investment_icons {
+display: flex;
+height: 100%;
+justify-content: center;
+}
+.investment_sectionss figure {
+width: 100%;
+max-width: 88px;
+}
+/*.indian_offshore_funds_section .row:nth-child(1) {
+background: #ccfcff;
+} */
+.indian_offshore_funds_section .row {
+padding: 60px 60px;
+}
+.ht {
+	height:100%;
+}
+.indian_fund_left.ht {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.indian_fund_left h2 {
+font-size: 35px;
+font-family: 'Inter';
+margin-bottom: 10px;
+}
+
+.indian_fund_left p {
+margin-bottom: 10px;
+font-size: 17px;
+}
+.indian_fund_left h5 {
+margin-bottom: 10px;
+font-size: 24px;
+}
+/*.indian_offshore_funds_section .row:nth-child(2) {
+background: #ffe4d3;
+border: 1px solid;
+border-style: dashed;
+border-color: #e7915c;
+}
+.indian_offshore_funds_section .row:nth-child(3) {
+background: #fee5fa;
+border: 1px solid;
+border-style: dashed;
+border-color: #f188e0;
+}
+.indian_offshore_funds_section .row:nth-child(4) {
+background: #e8e9fe;
+border: 1px solid;
+border-style: dashed;
+border-color: #959afd;
+}*/
+section.premium_investment_section {
+padding: 60px 0;
+background: url(../img/premiumbg.png), #f2f2f2 no-repeat center center/cover;
+width: 100%;	
+}
+.indian_offshore_funds_section .row {
+margin-bottom: 1px;
+}
+/*.indian_offshore_funds_section .row:nth-child(1) {
+background: #ccfcff;
+border: 1px solid;
+border-style: dashed;
+border-color: #2bedf9;
+}*/
+.indian_fund_left.ht > ul li img {
+width: 64px;
+border: 1px solid #111743;
+border-radius: 50%;
+padding: 5px;
+border-style: dashed;
+}
+.indian_fund_left.ht > ul {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	flex-wrap: wrap;
+}
+.indian_fund_left.ht > ul li {
+margin: 10px 18px 10px 0;
+}
+.indian_offshore_funds_section .row:nth-child(odd):after {
+position: absolute;
+content: '';
+width: 300px;
+height: 300px;
+border-radius: 50%;
+transform: translate(-50%, -50%);
+top: 24%;
+left: 14%;
+z-index: 1;
+animation: object 10s linear infinite;
+box-shadow: 2px 1px 7px #c3c3c36e;
+background: #f6f6f6;
+}
+.indian_offshore_funds_section .row {
+position: relative;
+}
+.indian_offshore_funds_section .row:nth-child(even):after {
+position: absolute;
+content: '';
+width: 300px;
+height: 300px;
+animation: object2 10s linear infinite;
+border-radius: 50%;
+transform: translate(-50%, -50%);
+top: 26%;
+left: 88%;
+background: #cccccc12;
+z-index: 1;
+box-shadow: -2px 2px 7px #cfcfcf85;
+}
+/*.indian_offshore_funds_section .row:nth-child(2):after {
+background: #fdcfb2;
+}
+.indian_offshore_funds_section .row:nth-child(1):after {
+background: #97f9ff8c;
+}
+.indian_offshore_funds_section .row:nth-child(3):after {
+background: #ffdbf9;
+}*/
+.indian_offshore_funds_section .row {
+overflow: hidden;
+}
+/*.indian_offshore_funds_section .row:nth-child(4):after {
+background: #959afd40;
+}*/
+.indian_offshore_funds_section .row> div {
+position: relative;
+z-index: 9;
+}
+/*.indian_offshore_funds_section .row:nth-child(3) .what_demat_left img {
+max-width: 75%;
+margin-left: auto;
+} */
+.search_right {
+width: 100%;
+max-width: 750px;
+margin: 0 auto;
+box-shadow: 0px 0px 5px 0px #b7b7b7;
+padding: 50px;
+background: linear-gradient(to bottom right, #6d79cd, #e8e9fe);
+}
+.search_heading h2 {
+margin-bottom: 25px;
+font-size: 28px;
+text-align: center;
+}
+.search_right .row input, .search_right .row select {
+margin-bottom: 25px;
+border: 1px solid #d7d7d7;
+padding: 10px;
+width: 100%;
+border-radius: 2px;
+}
+.search_right .box_btn a {
+border-radius: 10px;
+background: #111743;
+color: #fff;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 9px 0px;
+display: inline-block;
+position: relative;
+z-index: 1;
+max-width: 190px;
+width: 100%;
+}
+.search_right .box_btn a button.btn.bg-green.alt2 {
+color: #fff;
+}
+.search_right .box_btn a:before {
+border-radius:10px;
+}
+section.form-wrap .search_right {
+width: 100%;
+max-width: 750px;
+padding: 50px;
+}
+section.form-wrap {
+margin: 80px 0;
+}
+section.premium_investment_section {
+padding: 0 25px;
+}
+section.form-wrap {
+margin-left: 25px;
+margin-right: 25px;
+}
+/*investment platforms */
+section.about_Journey.indian_stocks{
+background: linear-gradient(0deg, rgba(255, 255, 255, 0) 55%, rgb(255, 239, 236) 100%);
+padding: 60px 0;
+}
+section.about_Journey.Mutual_funds{
+background: linear-gradient(0deg, rgba(255, 255, 255, 0) 55%, rgb(255, 239, 236) 100%);
+padding: 60px 0;	
+}
+ul.mutual_funds_icon {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+ul.mutual_funds_icon> li {
+margin: 10px 20px 10px 0;
+}
+
+@keyframes object {
+50% {
+top: 21%;
+left: 10%;
+	}
+}
+@keyframes object2 {
+50% {
+top: 24%;
+left: 84%;
+	}
+}
+@media screen and (max-width: 1440px){
+.image-inner p {
+font-size: 14px;
+}	
+}
+@media (max-width: 1200px){
+.get-in {
+ width: 143px !important;
+margin-left: 5px;
+}
+	}
+@media (max-width: 1199px){
+.how-we-work-section .item .arrow-img img {
+max-width: 80%;
+}
+}
+
+@media (max-width: 1024px){
+.image-inner .hover-text {
+padding: 10px;
+	}
+.premium_part .boxes-premium {
+padding: 25px 40px 25px 40px;
+}
+}
+/* Hide the slider on tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.mobile-view {
+display: none !important;
+    }
+}
+@media screen and (max-width: 991px){
+.how-we-work-section .item .icon {
+	width: 100px !important;
+	height: 100px !important;
+	line-height: 100px !important;
+}	
+.premium_part .boxes-premium {
+ padding: 20px;
+}	
+.indian_fund_left.ht > ul li {
+margin: 10px 10px 10px 0;
+}
+.box_btn.buttonss {
+margin-bottom: 30px;
+}
+	.what_demat.mutual_funds_future.home_services .row.flex-wrap-reverse {
+flex-wrap: wrap !important;
+}
+.get-in {
+padding: 3px 20px !important;
+	}
+header .navbar .navbar-links {
+background: linear-gradient(293deg, #2e0af1, #031759)!important;
+}
+header .navbar .navbar-links .links .sub-menu {
+background: #f2794900;
+}
+header .navbar .navbar-links .links .sub-menu li {
+padding: 4px 5px !important;
+border-radius: 5px !important;
+margin-bottom: 5px !important;
+background-color: #fb6e5f !important;
+}			
+}
+
+@media screen and (max-width: 767px){
+.copyright p {
+font-size: 16px;
+}
+.adv_in .row .col-12.forth:nth-child(4) .adv_box:before {
+top: unset !important;
+bottom: -42px !important;
+}
+	/*.investment .row>div:nth-child(2) {
+margin-bottom: 84px;
+	}
+	.investment .outer:nth-of-type(3) .investment_box {
+display: block;
+}
+.investment .outer:nth-of-type(3) .investment_box  .figure {
+text-align: center;
+}   */
+.outer.outer-space .content p {
+text-align: center !important;
+}
+/*.investment .outer:nth-of-type(3) .investment_box .content .box_btn {
+text-align: center;
+} */
+.indian-offshore-img img {
+width: 100%;
+max-width: 400px;
+}
+.indian_offshore_funds_section .row:nth-child(even):after {
+top: 89%;
+left: 88%;
+}
+.indian_offshore_funds_section .row:nth-child(3) .what_demat_left img {
+width: 100%;
+max-width: 400px;
+object-fit: contain;
+}
+.what_demat_left {
+height: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top: 40px;
+}	
+
+}
+@media screen and (min-width: 575px){
+
+
+.investment .outer:nth-of-type(3) .investment_box .figure {
+text-align: center;
+}
+.investment .outer:nth-of-type(3) .investment_box .content .box_btn {
+text-align: center;
+}
+.investment .outer {
+margin-bottom: 30px;
+}
+.mobile-view {
+display: block !important;
+}
+}
+@media screen and (max-width: 575px){
+h1 {
+font-size: 30px;
+margin-bottom: 20px;
+}
+.box_btn a {
+font-size: 16px;
+}
+.investment_box.first {display: block;}
+.buy_sell_right .mutual_box.image-iconnn {
+text-align: center;
+}
+.heading h2 {
+font-size: 28px;
+}
+.usd_found .box {
+padding: 40px 20px;
+}
+.footer_links h3 {
+font-size: 24px;
+}
+.heading h2 {
+font-size: 28px;
+}
+.box_btn.buttonss {
+	text-align: center;
+	margin-top: 20px;
+}	
+.indian_fund_left.ht > ul {
+flex-wrap: wrap;
+}
+	.online_trading_right.indian_fund_left {
+max-width: 100%;
+}
+
+.heading h2 {
+font-size: 28px;
+}
+.indian_offshore_funds_section .row {
+padding: 35px 25px;
+}
+section.form-wrap {
+margin-bottom: 50px;
+}
+section.premium_investment_section {
+margin: 50px 0;
+}	
+.indian_offshore_funds_section .row {
+padding: 30px 15px;
+}	
+}

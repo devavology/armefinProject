@@ -244,7 +244,70 @@ Template Name: Home
 		          endif; ?>
           </div>
         </div>
-      </section>  
+      </section> 
+
+<section class="premium_part investment">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="heading">
+                 <h2>Investment Banking Services</h2>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 outer">
+              <div class="boxes-premium">
+                <article>
+                <img class="img_field" src="http://localhost/armfin/wp-content/uploads/2023/10/fund-raising.jpg" alt="return">
+                <h3>Fund Raising</h3>
+                <p>As a small business owner, you might be looking for ideas of where to get the capital to take your business venture or startup idea to the next level. After you have made a business plan, invested your own savings, and worked your business as a side hustle for a few months, it is time to raise some real funds.</p>
+              </article>
+                <div class="box_btn">
+                  <a href="startup-funding.html">Read more</a>
+                </div>
+              </div>
+            </div>
+                   <div class="col-sm-12 col-md-6 col-lg-6 outer">
+              <div class="boxes-premium">
+                <article>
+                <img class="img_field" src="http://localhost/armfin/wp-content/uploads/2023/10/merg.jpg" alt="return">
+                <h3>Mergers And Acquisitions</h3>
+                <p>Mergers and acquisitions (M&amp;A) refer to the processes of combining two or more companies to form a new entity (merger) or one company acquiring another (acquisition). These strategic business activities aim to achieve various objectives, such as expanding market share, gaining new capabilities, accessing new markets, or achieving economies of scale. M&amp;A deals involve significant financial, legal, and operational considerations. They can have a profound impact on the involved organizations and their stakeholders.</p>
+                </article>
+                <div class="box_btn">
+                  <a href="mergers-acquisitions.html">Read more</a>
+                </div>
+              </div>
+            </div>
+                   <div class="col-sm-12 col-md-6 col-lg-6 outer">
+              <div class="boxes-premium">
+                <article>
+                <img class="img_field" src="http://localhost/armfin/wp-content/uploads/2023/10/business-set-up.jpg" alt="return">
+                <h3>Business Set-up</h3>
+                <p>What business should you start? It depends on your expertise, plus how much time and money you’re able to invest. Some small-business ideas can be launched from home.</p>
+              </article>
+                <div class="box_btn">
+                  <a href="business-set.html">Read more</a>
+                </div>
+              </div>
+            </div>
+                   <div class="col-sm-12 col-md-6 col-lg-6 outer">
+              <div class="boxes-premium">
+                <article>
+                <img class="img_field" src="http://localhost/armfin/wp-content/uploads/2023/10/fund-raising.jpg" alt="return">
+                <h3>Mergers And Acquisitions</h3>
+             <p>Mergers and acquisitions (M&amp;A) refer to the processes of combining two or more companies to form a new entity (merger) or one company acquiring another (acquisition). These strategic business activities aim to achieve various objectives, such as expanding market share, gaining new capabilities, accessing new markets, or achieving economies of scale. M&amp;A deals involve significant financial, legal, and operational considerations. They can have a profound impact on the involved organizations and their stakeholders. </p>
+              </article>
+                <div class="box_btn">
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+	
+      </section>
+
+ 
 	   <!--Wealth-->
       <section class="global_search top_tips">
         <div class="container">
@@ -291,3 +354,44 @@ Template Name: Home
         </div>
       </section>           
 <?php get_footer(); ?>
+
+
+
+ <section class="premium_part investment">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="heading">
+                 <h2><?php the_field('investment_platform_heading'); ?></h2>
+              </div>
+            </div>
+            <?php if(have_rows('platform_repeater')):
+            while(have_rows('platform_repeater')): the_row();?>
+            <div class="col-sm-12 col-md-6 col-lg-6 outer">
+              <div class="boxes-premium investment_boxss">
+                <article>
+                <img class="img_field" src="<?php the_sub_field('premium_img');?>" alt="return">
+                <h3><?php the_sub_field('premium_text'); ?></h3>
+                <p><?php the_sub_field('premium_content'); ?></p>
+              </article>
+                <div class="box_btn investment_btn">
+                   <?php 
+                    $link = get_sub_field('premium_btn');
+                     if( $link ): 
+                        $link_url = $link['url'];
+                        $link_title = $link['title'];
+                             ?>
+                    <a href="<?php echo esc_url( $link_url ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                  <?php endif; ?>
+                </div>
+              </div>
+            </div>
+          <?php 
+        endwhile;
+		endif;
+         ?>
+           
+          </div>
+        </div>
+  
+      </section>
